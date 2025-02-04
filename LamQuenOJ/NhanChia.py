@@ -1,0 +1,5 @@
+N = int(input())
+print(N * 2)
+print(N * 10)
+print(N // 2)
+print('%.2f' % (N / 2))
