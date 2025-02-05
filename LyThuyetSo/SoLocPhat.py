@@ -6,8 +6,6 @@ def solve(n):
         n //= 10
     return True
         
-
-
 if __name__ == '__main__':
     n = int(input())
     if solve(n):

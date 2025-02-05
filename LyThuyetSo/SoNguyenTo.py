@@ -1,7 +1,7 @@
 import math
 
 def result(N):
-    for i in range(2, int(math.sqrt(N)) + 1):
+    for i in range(2, int(math.sqrt(N))):
         if N % i == 0:
             return 0
     return 1
