@@ -1,6 +1,6 @@
 def solve(n):
     sum = 0
-    sqrtN = int(N ** 0.5)
+    sqrtN = int(n ** 0.5)
     for i in range(1, sqrtN + 1):
         if n % i == 0:
             sum += i

@@ -1,9 +1,9 @@
-import math
+
 n, m = map(int, input().split())
 
-x = (n + 1) // 2  # Số bước tối thiểu (ceil(n / 2))
-y = n             # Số bước tối đa
+x = (n + 1) // 2  
+y = n           
     
-res = ((x + m - 1) // m) * m  # Tìm số nhỏ nhất >= x chia hết cho m
+res = ((x + m - 1) // m) * m  
     
 print(res) if res <= y else print(-1)

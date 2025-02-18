@@ -7,4 +7,4 @@ if a % b == 0:
 else:
     res2 = (a // b + 1) * b
 
-print(res1, res2, sep = '\n')
+print(res1, res2)
