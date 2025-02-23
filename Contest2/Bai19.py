@@ -10,7 +10,6 @@ def solve(n):
 
     return bia
         
-
 if __name__ == "__main__":
     n = int(input())
     print(solve(n))
