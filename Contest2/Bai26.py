@@ -1,8 +1,7 @@
 def solve(a, b, n):
-    for x in range (int(n / a)):
-        for y in range (int(n / b)):
-            if a * x + b * y == n:
-                return True
+    for x in range (int(n // a + 1)):
+        if (n - a * x) % b == 0:
+            return True
     return False
 
 if __name__ == '__main__':

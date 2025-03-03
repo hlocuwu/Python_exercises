@@ -1,7 +1,11 @@
+def solve(n):
+    for i in range(n):
+        m = int(input())
+        if m % 2 == 0:
+            print('EVEN')
+        else:
+            print('ODD')
 
-T = int(input())
-
-numbers = [int(input()) for _ in range(T)]
-
-for N in numbers:
-    print("EVEN" if N % 2 == 0 else "ODD")
+if __name__ == '__main__':
+    n = int(input())
+    solve(n)
